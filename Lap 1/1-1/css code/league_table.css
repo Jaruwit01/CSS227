@@ -1,0 +1,12 @@
+table,
+th,
+td {
+
+    border-bottom: solid rgb(202, 202, 202);
+    background-color: aliceblue;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table{
+    display: flex;
+}
