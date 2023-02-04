@@ -6,7 +6,16 @@ td {
     background-color: aliceblue;
     border-collapse: collapse;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(60% + 0.8vmin);
 }
 .table{
     display: flex;
+}
+
+.Padding{
+    width: 45rem;
+    padding: 0.625rem;
+    border: solid  rgb(193, 234, 170);
+    border-color: rgb(193, 234, 170);
+    margin: 0;
 }
