@@ -12,6 +12,9 @@ td {
     display: flex;
 }
 
+tr{
+    text-align:center ;
+}
 .Padding{
     width: 45rem;
     padding: 0.625rem;
