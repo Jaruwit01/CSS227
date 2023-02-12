@@ -1,20 +1,44 @@
-.main{
-    display: flex;
-}
 .box{
-    margin: auto;
-}
-
-
-table, td{
-    border: 1px solid black;
+    display: block;
     width: 200px;
-    height: 60px;
-    text-align: center;
-    vertical-align: middle;;
-    background-color: black;
+    height: 200px;
+    margin:auto;
+    margin-top: 200px;
 }
 
-td{
-    background-color:white;
+.grid{
+    display: grid;
+    width: 150px;
+    height: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.grid div{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .cell-1-3{
+    border-width: 0px 0px 1px 0px;
+}
+
+.grid .cell-2-3{
+    border-width: 0px 0px 1px 0px;
+}
+
+.grid .cell-3-1{
+    border-width: 0px 1px 0px 0px;
+}
+
+.grid .cell-3-2{
+    border-width: 1px 1px 0px 0px;
+}
+
+.grid .cell-3-3{
+    border-width: 1px 0px 0px 1px;
 }
