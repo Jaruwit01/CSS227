@@ -1,37 +1,50 @@
-body{
-    padding: 10px 30px 10px 5px;
+body {
+    padding: 1%;
     justify-content: center;
     display: flex;
-    background: linear-gradient(0.25turn, #95bbf3, #d46fff, #f6634c);;
-    font-family: system-ui;}
+    background: linear-gradient(0.25turn, #95bbf3, #d46fff, #f6634c);
+    ;
+    font-family: system-ui;
+}
 
-.texts{
-    width: 400px;
-    padding: 1px 1px 10px 30px;
+.texts {
+    width: 25rem;
+    padding: 1px 1px 1px 30px;
 
 }
-.texts h1{
-    font-size: 50px;
-    font-weight: 400;
+
+.texts h1 {
+    font-size: 2.813rem;
     text-align: left;
-    margin: 0px;
-    padding: 0px 0px 0px 8px;
-}
-.texts p{
-    font-size: 18px;
-    font-weight: 300;
-    text-align: left;
-    margin: 15px;
+    margin: auto;
     padding: 0px 0px 0px 0px;
 }
-.texts h2{
-    font-size: 30px;
+
+.texts p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.texts h2 {
+    font-size: 2.188rem;
     font-weight: 400;
     text-align: left;
-    margin: 0px;
-    padding: 0px 150px 0px 15px;
+    margin: auto;
+    padding: 0px 40px 0px 0px;
 }
-.box{
+
+.texts h3 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: r;
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+.box {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -44,86 +57,122 @@ body{
     border-radius: 30px;
 
 }
-.box-icon{
-    display: flex;
-    justify-content: center;
-    border: solid 0px;
-    width: 100%;
-    margin: auto;;
-    padding: 10px 10px 10px 1px;
-}
-.icon{
-    width: 250px;
-    margin: auto;
-    border-radius:10px;
+
+.icon {
+    width: 15.625rem;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.4);
     border: solid 0px;
-    padding: 1%;
-    
+    margin: 10px 0px 20px 6px;
+    padding: 2px 2px 2px 2px;
+
 }
 
-.icon img{
+.icon img {
     display: flex;
     margin: auto;
     justify-content: center;
-    width:40px;
-    border-radius:10px;
+    width: 2.5em;
+    ;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
 
 }
 
-.icon h3{
+.icon h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
-    margin:auto;
+    margin: auto;
 }
-.icon p{
+
+.icon p {
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
     margin: 10px;
 
 }
 
-.box-pic{
-    display: inline-block;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    padding: 5px 10px 10px 1px;
-     
-}
-
-.box-pic img{
-    width: 330px;
-    padding: 1%;
-    border-radius: 10px;
-}
-.btn-join{
+.btn-join {
     display: flex;
     justify-content: left;
     border: solid 0px;
     width: 100%;
     margin: auto;
-    padding: 10px 10px 10px 30px;
+    padding: 20px 0px 0px 30px;
 }
-.box-pic .img1{   
+
+#email {
+    border-bottom: solid 1px;
+    border-radius: 2px;
+    height: 20px;
+    width: 11.25rem;
+}
+
+#join-btn {
+    border-bottom: solid 1px;
+    border-radius: 2px;
+    height: 25px;
+    width: 5.625rem;
+}
+
+.box-pic img {
+    width: 18.75rem;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.box-pic .img1 {
     position: absolute;
-    border: solid green 2px;
-    top: 15px;
-    left: 500px;
+    top: 1.563rem;
+    left: 28.125rem;
+    box-shadow: 30px 40px 10000000px #00000093;
+    padding: 0px;
+}
+
+.box-pic .img2 {
+    position: absolute;
+    top: 6.25rem;
+    left: 36.25rem;
+    box-shadow: 30px 40px 10000000px #00000093;
+    padding: 0px;
 
 }
-.box-pic .img2{
+
+.box-pic .img3 {
     position: absolute;
-    top: 90px;
-    left: 630px;
-    border: solid yellow 2px;
+    top: 2.5rem;
+    left: 46.313rem;
+    box-shadow: 30px 30px 10000000px #00000093;
+    padding: 0px;
 
 }
-.box-pic .img3{
-    position: absolute;
-    top: 30px;
-    left: 775px;
-    border: solid red 2px;
+
+.box-pic .img1:hover {
+    border: solid rgba(255, 0, 0, 0.543) 4px;
+    box-shadow: 30px 40px 10000000px #00000093;
+    padding: 0px;
+    cursor: pointer;
+    width: 19.375rem;
+    z-index: 1;
+
+}
+
+.box-pic .img2:hover {
+    border: solid rgba(255, 0, 0, 0.543) 4px;
+    box-shadow: 30px 40px 10000000px #00000093;
+    padding: 0px;
+    cursor: pointer;
+    width: 19.375rem;
+    z-index: 1;
+}
+
+.box-pic .img3:hover {
+    border: solid rgba(255, 0, 0, 0.543) 4px;
+    box-shadow: 30px 40px 10000000px #00000093;
+    padding: 0px;
+    cursor: pointer;
+    width: 19.375rem;
+    z-index: 1;
 }
