@@ -3,40 +3,41 @@ body {
     justify-content: center;
     display: flex;
     background: linear-gradient(0.25turn, #95bbf3, #d46fff, #f6634c);
+    ;
     font-family: system-ui;
 }
 
 .texts {
-    width: 28rem;
+    width: 25rem;
     padding: 1px 1px 1px 30px;
 
 }
 
 .texts h1 {
-    font-size: 3.75rem;
+    font-size: 2.813rem;
     text-align: left;
     margin: auto;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .texts p {
-    font-size: 1.375rem;
+    font-size: 1.125rem;
     font-weight: 300;
     text-align: left;
     margin: auto;
-    padding: 10px 23px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .texts h2 {
-    font-size: 2.5rem;
+    font-size: 2.188rem;
     font-weight: 400;
     text-align: left;
     margin: auto;
-    padding: 10px 40px 0px 0px;
+    padding: 0px 40px 0px 0px;
 }
 
 .texts h3 {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
     font-weight: 400;
     text-align: r;
     margin: auto;
@@ -47,6 +48,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    height: 100%;
     border: solid 0px;
     padding: 10px 10px 10px 10px;
     margin: auto;
@@ -55,22 +57,14 @@ body {
     border-radius: 30px;
 
 }
-.box-icon{
-    display: flex;
-    justify-self: center;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    margin: 10px 10px 30px 10px;
-}
+
 .icon {
-    
-    width: 23.75rem;
+    width: 15.625rem;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.4);
     border: solid 0px;
-    margin: 5px;
-    padding: 2px 2px 30px 2px;
+    margin: 10px 0px 20px 6px;
+    padding: 2px 2px 2px 2px;
 
 }
 
@@ -78,7 +72,8 @@ body {
     display: flex;
     margin: auto;
     justify-content: center;
-    width: 3.75rem;
+    width: 2.5em;
+    ;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
 
@@ -86,21 +81,21 @@ body {
 
 .icon h3 {
     text-align: center;
-    font-size: 2.813rem;
+    font-size: 1.875rem;
     font-weight: 400;
     margin: auto;
 }
 
 .icon p {
     text-align: left;
-    font-size: 1.563rem;
+    font-size: 1.125rem;
     font-weight: 300;
     margin: 10px;
 
 }
 
 .btn-join {
-    display: inline-flex;
+    display: flex;
     justify-content: left;
     border: solid 0px;
     width: 100%;
@@ -111,42 +106,35 @@ body {
 #email {
     border-bottom: solid 1px;
     border-radius: 2px;
-    height: 30px;
+    height: 20px;
     width: 11.25rem;
 }
 
 #join-btn {
     border-bottom: solid 1px;
     border-radius: 2px;
-    height: 35px;
+    height: 25px;
     width: 5.625rem;
-    font-size: 18px;
-}
-
-.box-pic {
-    display: inline-flex;
-    justify-content: flex-end;
-    margin: 210px;
 }
 
 .box-pic img {
-    width: 32.5rem;
+    width: 18.75rem;
+    padding: 1%;
     border-radius: 10px;
-    margin: auto;
 }
 
 .box-pic .img1 {
     position: absolute;
-    top: 25px;
-    left: 500px;
+    top: 1.563rem;
+    left: 28.125rem;
     box-shadow: 30px 40px 10000000px #00000093;
     padding: 0px;
 }
 
 .box-pic .img2 {
     position: absolute;
-    top: 150px;
-    left: 705px;
+    top: 6.25rem;
+    left: 36.25rem;
     box-shadow: 30px 40px 10000000px #00000093;
     padding: 0px;
 
@@ -155,36 +143,36 @@ body {
 .box-pic .img3 {
     position: absolute;
     top: 2.5rem;
-    left: 950px;
+    left: 46.313rem;
     box-shadow: 30px 30px 10000000px #00000093;
     padding: 0px;
 
 }
 
 .box-pic .img1:hover {
-    border: solid rgba(255, 0, 0, 0.543) 10px;
+    border: solid rgba(255, 0, 0, 0.543) 4px;
     box-shadow: 30px 40px 10000000px #00000093;
     padding: 0px;
     cursor: pointer;
-    width: 37.5rem;
+    width: 19.375rem;
     z-index: 1;
 
 }
 
 .box-pic .img2:hover {
-    border: solid rgba(255, 0, 0, 0.543) 10px;
+    border: solid rgba(255, 0, 0, 0.543) 4px;
     box-shadow: 30px 40px 10000000px #00000093;
     padding: 0px;
     cursor: pointer;
-    width: 37.5rem;
+    width: 19.375rem;
     z-index: 1;
 }
 
 .box-pic .img3:hover {
-    border: solid rgba(255, 0, 0, 0.543) 10px;
+    border: solid rgba(255, 0, 0, 0.543) 4px;
     box-shadow: 30px 40px 10000000px #00000093;
     padding: 0px;
     cursor: pointer;
-    width: 37.5rem;
+    width: 19.375rem;
     z-index: 1;
 }
