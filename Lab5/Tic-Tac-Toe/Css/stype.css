@@ -17,7 +17,12 @@
     grid-template-rows: repeat(3, 1fr);
     width: 300px;
     height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    overflow: hidden;
+}
+.grid div{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.btn-0, .btn-2,.btn-6,.btn-8{
+    border-width: 0px 0px 1px 0px;
+    
 }
