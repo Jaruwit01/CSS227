@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Iso&display=swap');
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.time{
+    font-size: 1.74rem;
+    font-family: 'Press Start 2P', cursive;
+    background:linear-gradient(45deg, #0073ff, #e7e7e7, #e7d0fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
