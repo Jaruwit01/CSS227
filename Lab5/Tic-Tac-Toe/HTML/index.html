@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="/Lab5/Tic-Tac-Toe/Css/stype.css">
-    <script src="//Lab5Tic-Tac-Toe/JS/app.js" defer></script>
+    <script src="/Lab5/Tic-Tac-Toe/JS/app.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="box">
-        <div class="grid">
-            <div class="btn-0"></div>
-            <div class="btn-1"></div>
-            <div class="btn-2"></div>
-            <div class="btn-3"></div>
-            <div class="btn-4"></div>
-            <div class="btn-5"></div>
-            <div class="btn-6"></div>
-            <div class="btn-7"></div>
-            <div class="btn-8"></div>
-        </div>
+        <select  id="playerSelector">
+            <option value="X">X</option>
+            <option value="O">O</option>
+        </select>
+        <table id = "grid">
+            <h1>Tic Tac Toe</h1>
+            <tr>
+                <td onclick="makeMove(0)"></td>
+                <td onclick="makeMove(1)"></td>
+                <td onclick="makeMove(2)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(3)"></td>
+                <td onclick="makeMove(4)"></td>
+                <td onclick="makeMove(5)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(6)"></td>
+                <td onclick="makeMove(7)"></td>
+                <td onclick="makeMove(8)"></td>
+            </tr>
+        </table>
+        <div id="status">X's turn</div>
+        <button onclick="resetGame()">Reset Game</button>
+
     </div>
 </body>
+
 </html>
