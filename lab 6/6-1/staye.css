@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: #050505de 54px solid;
+}
+tr{
+    border: #000000 1px solid;
+}
+
+td{
+   width: 200px;
+    height: 200px;
+    border: #fffbfb 1px solid;
+}
+
+:root{
+    --black-color: #050505;
+    --white-color: #fff;
+}
+
+#box1, #box4{
+    background-color: var(--black-color)
+}
+#box1.night, #box4.night{
+        background-color: var(--white-color);
+
+}
+#box2.night, #box3.night{
+    background-color: var(--black-color);
+}
