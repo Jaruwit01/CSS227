@@ -32,10 +32,10 @@ td{
 #box1, #box4{
     background-color: var(--black-color)
 }
-#box1.night, #box4.night{
-        background-color: var(--white-color);
-
+html.night #box1, html.night #box4{
+    background-color: var(--white-color);
 }
-#box2.night, #box3.night{
+
+html.night #box2, html.night #box3{
     background-color: var(--black-color);
 }
