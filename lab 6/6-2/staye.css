@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    padding:3% 0 0 2%;
+}
+
+.drop{
+    text-align: start;
+    padding: 10px 100px 10px 0;
+    font-size: 1.5rem;
+    color: rgb(94, 35, 255);
+    border: 1px solid rgb(94, 35, 255);
+    background-color: rgb(233, 226, 253);
+    border-radius: 10px;
+    font-weight: bold;
+}
+#list{
+    padding: 0 0 0 4%;
+}
