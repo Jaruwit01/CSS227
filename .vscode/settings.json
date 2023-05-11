@@ -36,5 +36,6 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "cSpell.words": [
     "togglecompleted"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
